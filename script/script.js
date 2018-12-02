@@ -67,18 +67,10 @@ var groupList = [...list];
     });
   });
 
-// ------------>
-// font-color
-// background-color
-// border-color
-// -------------<
 const btnCodeTextDisplay = document.querySelector('.code-display');
 
 const btn = getComputedStyle(buttonDisplay);
-// console.log(btn)
-// const objArrCssProperties = Array.from(btn)
-// btnCodeText.innerText = objArrCssProperties[4];
-// console.log(buttonDisplay.style.backgroundColor)
+
 
  function createCodeStructureToDom(button){
 

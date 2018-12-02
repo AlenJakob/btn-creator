@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>btn-creator</title>
+</head>
+<body>
+
+  <div id="container" class="container">
+    <div class="left-box box-style">
+<!--       row start height -->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">50px</span>
+          <span class="header-title">height</span>
+          <span class="end-size-value size-std">100px</span>
+        </div>
+        <input class="zip-elem" id="height-value" name="height" type="range" min="30" max="100" value="50">
+      </div>
+<!--    row end  height  -->
+<!--       row start width -->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">250px</span>
+          <span class="header-title">width</span>
+          <span class="end-size-value size-std">350px</span>
+        </div>
+        <input class="zip-elem" id="width-value" name="width" type="range" min="0" max="350" value="250">
+      </div>
+<!--    row end  width  -->
+<!--   row start border-radius-->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">25px</span>
+          <span class="header-title">border-radius</span>
+          <span class="end-size-value size-std">25px</span>
+        </div>
+        <input class="zip-elem" id="border-radius-value" name="border_radius" type="range" min="0" max="25" value="25">
+      </div>
+<!--    row end   border-radius -->
+<!--       row start  border-size -->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">5px</span>
+          <span class="header-title">border-size</span>
+          <span class="max-size-value size-std">10px</span>
+        </div>
+        <input class="zip-elem" id="border-size-value" name="border_size" type="range" min="0" max="10">
+      </div>
+<!--    row end    border-size -->
+<!--       row start font-size-->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">20px</span>
+          <span class="header-title">font-size</span>
+          <span class="end-size-value size-std">40px</span>
+        </div>
+        <input class="zip-elem" id="font-size-value" name="font-size" type="range" min="0" max="40">
+      </div>
+<!--    row end   font-size -->
+<!--       row start  opacity-->
+      <div class="zip-range">
+        <div class="zip-title">
+          <span class="begin-size-value size-std zip-output">5</span>
+          <span class="header-title">opacity</span>
+          <span class="end-size-value size-std">5</span>
+        </div>
+        <input class="zip-elem" id="opacity-value" name="opacity" type="range" min="0" max="9" value="9">
+      </div>
+<!--    row end  opacity  -->
+<!--       row start font-color-->
+<div class="zip-range">
+  <div class="color-title">
+    <span class="header-title">font-color</span>
+  </div>
+<input id="bg-border-color" name="font-color"  type="color" class="color-std switch-color" >
+</div>
+<!--    row end  font-color  -->
+
+
+<!--       row start background-color-->
+      <div class="zip-range">
+        <div class="color-title">
+          <span class="header-title">background-color</span>
+        </div>
+<input id="bg-color"name="background-color"  type="color" class="color-std switch-color" value="#4169e1">
+      </div>
+<!--    row end  background-color  -->
+<!--       row start background-color-->
+      <div class="zip-range">
+        <div class="color-title">
+          <span class="header-title">border-color</span>
+        </div>
+   <input id="bg-border-color" name="border-color"  type="color" class="color-std switch-color" value="#9696fa">
+      </div>
+<!--    row end  background-color  -->
+
+    </div>
+
+
+<!--    Display box view/code  -->
+    <div class="right-box box-style">
+      <div class="view-button view-std">
+
+        <button class="btn-example">Button</button>
+
+      </div>
+      <div class="view-info-button view-std ">
+        <i class="fas fa-sort-up arrow-m-up"></i>
+        <label>view</label>
+      </div>
+      <div class="view-info-code view-std">
+        <label>code </label>
+         <i class="fas fa-sort-down arrow-m-down"></i>
+      </div>
+      <div class="show-code view-std">
+          <div class="braces-ico">.btn-example{</div>
+<article class="code-display">
+
+</article>
+<div class="braces-ico">}</div>
+      </div>
+    </div>
+
+  </div>
+
+<script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.container{
+  width:800px;
+  height:900px;
+  border:2px solid rgba(0,0,0,.08);
+  padding:.5rem;
+  display:flex;
+  color:grey;
+  font-family:verdana;
+}
+.header-title{
+  font-size:.9rem;
+  letter-spacing:1px;
+  color:rgba(0,0,0,.55);
+}
+.box-style{
+  border-radius:2px;
+  flex:1;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:column
+}
+.left-box{
+  border:2px solid rgba(0,0,0,.2);
+  margin-right:.25rem;
+}
+.right-box{
+  margin-left:.25rem;
+}
+.right-box .view-std:first-child{
+  margin-top:0;
+}
+.right-box .view-std{
+  border:2px solid rgba(0,0,0,.2);
+  width:350px;
+  min-height:150px;
+  margin-top:2%;
+}
+/* display Result button */
+.view-button{
+  height:120px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+/* info bars with arrows */
+.view-info-button,
+.view-info-code{
+  color:silver;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.view-info-button:hover,
+.view-info-code:hover{
+  background: rgba(0,0,110,.1)
+}
+.arrow-m-down{
+ margin-top:5px;
+}
+.arrow-m-up{
+ margin-bottom:5px;
+}
+/* Display code show-box */
+.show-code{
+  height:100%;
+}
+/* inputs size*/
+input[type="range"]{
+  width:250px;
+}
+.zip-range:first-child{
+  margin-top:10%;
+}
+.zip-range{
+  margin-top:2%;
+  border:1px solid transparent;
+  width:80%;
+  height:80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  transition: .3s;
+}
+input[type="range"]{
+  cursor: pointer;
+}
+
+.zip-range:hover{
+  border:1px solid #e2e8fb;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(151, 151, 151);
+}
+.size-std{
+  font-size:.7rem;
+  color:darksilver;
+}
+.zip-title{
+/*   border:1px solid red; */
+  margin-bottom: 10px;
+  min-width:250px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+}
+.color-std{
+  width:200px;
+  margin:.5rem 0;
+}
+/* Example testing */
+.btn-example{
+  font-size:20px;
+  width:250px;
+  height:50px;
+  background:royalblue;
+  border-radius:25px;
+  border:5px solid rgba(150,150,250,1);
+  opacity:.9;
+}
+/* display code  */
+.code-display{
+  padding:1rem;
+  font-family: calibri;
+  letter-spacing: .02rem;
+}
+.data-button{
+  padding:.2rem;
+  margin:5px;
+}
+.data-button:hoveR{
+  background: rgba(0,0,0,.1)
+}
+.braces-ico{
+ padding:1rem 0 0 .8rem;
+ color:black;
+ font-size:.8rem;
+}
